@@ -1,6 +1,6 @@
 # WGS Pipeline
 
-A comprehensive Python package for analyzing whole genome sequencing (WGS) data from bacterial samples. This package converts a bash script workflow into a structured Python package that handles file preparation, read trimming, assembly, quality assessment, annotation, and phylogenetic analysis.
+A comprehensive Python package for analyzing whole genome sequencing (WGS) data from bacterial samples. This package contains a structured Python package that handles file preparation, read trimming, assembly, quality assessment, annotation, and phylogenetic analysis.
 
 ## Features
 
