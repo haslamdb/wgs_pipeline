@@ -66,7 +66,7 @@ This package requires several bioinformatics tools organized into separate conda
 #### 1. Main Assembly Environment (unicycler-env) ✅
 **Status:** 
 ```bash
-# Already installed! Contains:
+# Contains:
 # - unicycler (0.5.1)
 # - trimmomatic (0.40)
 # - fastqc (0.12.1)
@@ -88,7 +88,7 @@ conda create -n unicycler-env -c bioconda -c conda-forge \
 
 #### 2. Nanopore QC Environment (nanopore-qc) ✅
 ```bash
-# Already installed! Contains:
+# Contains:
 # - nanoplot (1.46.1)
 # - nanostat (1.6.0)
 ```
@@ -101,7 +101,7 @@ conda create -n unicycler-env -c bioconda -c conda-forge \
 
 #### 3. Assembly QC and Comparative Genomics (assembly-qc) ✅
 ```bash
-# Already installed! Contains:
+# Contains:
 # - quast (5.2.0)
 # - parsnp (1.5.6)
 # - harvesttools (1.2)
