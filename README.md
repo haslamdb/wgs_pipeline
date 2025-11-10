@@ -63,10 +63,8 @@ This package requires several bioinformatics tools organized into separate conda
 
 ### Conda Environments Setup
 
-**Status: ✅ All environments are installed and configured on this system!**
-
 #### 1. Main Assembly Environment (unicycler-env) ✅
-**Status:** INSTALLED
+**Status:** 
 ```bash
 # Already installed! Contains:
 # - unicycler (0.5.1)
@@ -89,7 +87,6 @@ conda create -n unicycler-env -c bioconda -c conda-forge \
 - BBMap (coverage analysis)
 
 #### 2. Nanopore QC Environment (nanopore-qc) ✅
-**Status:** INSTALLED (separate environment)
 ```bash
 # Already installed! Contains:
 # - nanoplot (1.46.1)
@@ -103,7 +100,6 @@ conda create -n unicycler-env -c bioconda -c conda-forge \
 **Note:** Use this environment specifically for `--step nanoplot`
 
 #### 3. Assembly QC and Comparative Genomics (assembly-qc) ✅
-**Status:** INSTALLED
 ```bash
 # Already installed! Contains:
 # - quast (5.2.0)
@@ -126,7 +122,6 @@ conda create -n assembly-qc -c bioconda -c conda-forge \
 - FastTree (phylogenetic trees)
 
 #### 4. Mutation Analysis (breseq) ✅
-**Status:** INSTALLED
 ```bash
 # Already installed! Contains:
 # - breseq (0.39.0)
@@ -143,7 +138,6 @@ conda create -n breseq -c bioconda breseq -y
 - gdtools (mutation comparison)
 
 #### 5. Modern Annotation (bakta) ✅
-**Status:** INSTALLED
 ```bash
 # Already installed! Contains:
 # - bakta (1.11.4)
@@ -168,7 +162,6 @@ bakta_db download --output ~/bakta_db --type full
 - Bakta (genome annotation)
 
 #### 6. Plasmid Analysis (mobsuite) ✅
-**Status:** INSTALLED
 ```bash
 # Already installed! Contains:
 # - mob_suite (3.1.9)
@@ -183,7 +176,6 @@ conda create -n mobsuite -c bioconda -c conda-forge mob_suite -y
 - MOB-suite (plasmid identification and typing)
 
 #### 7. Legacy Tools (wgs-legacy) ✅
-**Status:** INSTALLED
 ```bash
 # Already installed! Contains:
 # - prokka (1.13)
